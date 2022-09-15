@@ -1,0 +1,8 @@
+@font-face {
+    font-family : "NotoSerifKR-Regular";
+    src: url('../font/NotoSerifKR-Regular.otf')
+}
+
+* {
+	font-family: NotoSerifKR-Regular;
+}

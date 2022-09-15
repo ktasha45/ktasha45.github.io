@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});</script>
+    <script type="text/javascript" async
+      src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            background-color:gray;
+        }
+        .menu {
+            background-color:black;
+            font-size: 2em
+        }
+        .mainbody {
+            margin: 60px auto;
+            max-width: 800px;
+            padding: 50px;
+            border-radius: 20px;
+            background-color: white;
+        }
+        ul {
+            margin: 10px 0;
+            font-size: 16pt;
+            letter-spacing: -1px;
+        }
+        .page_date {
+            font-size: 13pt;
+        }
+    </style>
+  </head>
+  
+  <body>
+    <div class="menu">
+      <a style="color:white; margin-right:1em" href="{% link index.md %}">index</a>
+      <a style="color:white" href="https://github.com/ktasha45">github</a>
+    </div>
+    <div class="mainbody">
+      <div class="content">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
