@@ -4,9 +4,6 @@
 layout: index
 title: flogging
 ---
-
-## categories
-
 {% for tag in site.categories %}
   <h2>{{ tag[0] }}</h2>
   <ul>
