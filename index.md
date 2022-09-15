@@ -19,32 +19,3 @@ title: flogging
     {% endfor %}
   </ul>
 {% endfor %}
-
-
-$x^2$
-
-\\( x^2 \\)
-
-$$\text{output}=
-\begin{cases}
-0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \\
-1, & \text{otherwise}
-\end{cases}$$
-
-$$\text{output}=
-\begin{cases}
-0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \cr
-1, & \text{otherwise}
-\end{cases}$$
-
-\\[\text{output}=
-\begin{cases}
-0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \\
-1, & \text{otherwise}
-\end{cases}\\]
-
-\\[\text{output}=
-\begin{cases}
-0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \cr
-1, & \text{otherwise}
-\end{cases}\\]
