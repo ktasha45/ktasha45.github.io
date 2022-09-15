@@ -29,11 +29,19 @@ loss function을 최적화시키며 가중치와 편향을 자동으로 검색�
 그리고 당신이 날씨에 민감하거나, 같이 갈 지인이 없다면 절대 혼자 그런 것에 가지 않는다면, 그 특정 요소는 아마 당신의 결정에 강력하게 반영될 것이다. 그리고 그런 식으로 반영되는 정도를 수치로 표현한 것이 가중치, $w$이다.  
 그래서 이때의 가중합<sup>weighted sum</sup>인 $\sum_jw_jx_j$이 역치<sup>threshold</sup>보다 큰지 작은지에 따라 0 또는 1의 값을 출력한다. 이때의 역치와 가중치를 이 퍼셉트론의 파라미터<sup>parameter</sup>라고 표현한다.
 
+\\( x^2 \\)
+
 $$\text{output}=
 \begin{cases}
 0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \\
 1, & \text{otherwise}
 \end{cases}$$
+
+\\[\text{output}=
+\begin{cases}
+0, & \text{if} \quad {\sum_jw_jx_j \le \text{threshold}} \\
+1, & \text{otherwise}
+\end{cases}\\]
 
 threshold를 편향<sup>bias</sup>로 치환해서 식을 간단히 나타내곤 한다. $\sum_j$도 벡터 내적으로 간략하게 표현할 수 있고, 그 결과는 다음과 같다.  
 
