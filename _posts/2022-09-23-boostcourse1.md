@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  boostcourse ai 4th
+title:  boostcourse ai tech 4기 1주차 회고
 categories: boostcourse
 ---
 
@@ -19,10 +19,15 @@ $\partial_{\beta_{k}}||\mathbf{y}-X\beta||$ 의 결과에서 분모에 $n$이 �
      -> 1/n을 루트 안에 넣는 거랑 밖에 두는 거랑 차이는 뭘까?
      - 새롭게 정의된 norm은 다음과 같다.  
   $$||\mathbf y - X\beta|| = \sqrt{\frac{1}{n}\sum_{i=1}^n\left(y_i - \sum_{j=1}^d X_{ij}\beta_j\right)}$$
-  - 아래 사진은 각각 $f(x, y) = x^2 + 2y^2$, $(f(x, y) = x^2 + y^2$에서 gradient descent를 수행했을 때 $x$와 $y$의 궤적을 나타낸다.  
-  <img src="https://user-images.githubusercontent.com/47550287/191882708-0db9fced-fe8c-43d5-88d1-7b854040d717.png" width="50%">
-  <img src="https://user-images.githubusercontent.com/47550287/191882948-0148765a-524b-4f3c-94d6-0483c83d4d57.png" width="49%">  
-  전자의 경우 타원이기 때문에 궤적이 곡선을 그리게 되는데, 사이클로이드처럼 보이기도 한다. 코드는 [다음](https://d2l.ai/chapter_optimization/gd.html)을 참고했다.
+  - 부스트캠프 강의에서  
+  <img src="https://user-images.githubusercontent.com/47550287/191895425-6087a4ef-a161-49d4-b319-7aeed7a9999d.png" width="80%">  
+  위와 같은 그림이 나왔고, 직선으로 내려가야 하는 것 아닌가 싶어 실험해보았다.  
+  아래 사진은 각각 $f(x, y) = x^2 + 2y^2$, $(f(x, y) = x^2 + y^2$에서 gradient descent를 수행했을 때 $x$와 $y$의 궤적을 나타낸다.  
+  <img src="https://user-images.githubusercontent.com/47550287/191882708-0db9fced-fe8c-43d5-88d1-7b854040d717.png" width="45%">
+  <img src="https://user-images.githubusercontent.com/47550287/191882948-0148765a-524b-4f3c-94d6-0483c83d4d57.png" width="45%">  
+  강의의 시각자료는 틀리지 않았다.  
+  전자의 경우 타원이기 때문에 궤적이 곡선을 그리게 되는데, 사이클로이드처럼 보이기도 한다. 코드는 [다음](https://d2l.ai/chapter_optimization/gd.html)을 참고했다.  
+  
 
 ## not boostcamp
  - overparameterized $\left(N\text{<}\text{<}M\right)$ 선형회귀에서 gradient descent를 하면 항상 zero-loss 평면에 수직으로 접근한다.
