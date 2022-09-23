@@ -11,15 +11,14 @@ categories: boostcourse
 ## thought
 - Moore-penrose 역행렬이 선형 회귀에서 최적의 해를 나타내는 이유
    - 관련 설명: [link](https://angeloyeo.github.io/2020/11/11/pseudo_inverse.html)
-- Moore-penrose 역행렬을 구할 때 $A^\intercal A$나 $AA^\intercal$의 determinant는 고려하지 않아도 되는 것인가?  
-- 얼마나띄어야할까?   
-$\partial_{\beta_{k}}||\mathbf{y}-X\beta||$ 의 결과에서 분모에 $n$이 나오는 이유. 실제로 l2 norm으로 계산해보면 $\sqrt{n}$이 나옴. 
-   - 이유: norm이 새롭게 정의되었기 떄문  
-     -> norm을 임의로 설정해도 되는 건가? (l2 norm은 유클리디안 거리인데)  
-     -> 1/n을 루트 안에 넣는 거랑 밖에 두는 거랑 차이는 뭘까?
-     - 새롭게 정의된 norm은 다음과 같다.  
+- Moore-penrose 역행렬을 구할 때 $A^\intercal A$나 $AA^\intercal$의 determinant는 고려하지 않아도 되는 것인가?   
+- $\partial_{\beta_{k}}||\mathbf{y}-X\beta||$ 의 결과에서 분모에 $n$이 나오는 이유. 실제로 l2 norm으로 계산해보면 $\sqrt{n}$이 나옴.  
+  -> 이유: norm이 새롭게 정의되었기 때문  
+  -> norm을 임의로 설정해도 되는 건가? (l2 norm은 유클리디안 거리인데)  
+  -> 1/n을 루트 안에 넣는 거랑 밖에 두는 거랑 차이는 뭘까?  
+  -> 새롭게 정의된 norm은 다음과 같다.
   $$||\mathbf y - X\beta|| = \sqrt{\frac{1}{n}\sum_{i=1}^n\left(y_i - \sum_{j=1}^d X_{ij}\beta_j\right)}$$
-  - 부스트캠프 강의에서  
+- 부스트캠프 강의에서  
   <img src="https://user-images.githubusercontent.com/47550287/191895425-6087a4ef-a161-49d4-b319-7aeed7a9999d.png" width="80%">  
   위와 같은 그림이 나왔고, 직선으로 내려가야 하는 것 아닌가 싶어 실험해보았다.  
   아래 사진은 각각 $f(x, y) = x^2 + 2y^2$, $(f(x, y) = x^2 + y^2$에서 gradient descent를 수행했을 때 $x$와 $y$의 궤적을 나타낸다.  
