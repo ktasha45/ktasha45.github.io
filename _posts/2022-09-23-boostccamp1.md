@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  boostcourse ai tech 4기 1주차 회고
-categories: boostcourse
+categories: boostcamp
 ---
 
 # boostcourse ai tech 4기 1주차 회고
