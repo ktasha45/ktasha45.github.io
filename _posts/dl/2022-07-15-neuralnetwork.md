@@ -3,8 +3,13 @@ layout: post
 title:  How neural networks work
 categories: dl
 ---
+- [neural networks and deep learning - chap1](http://neuralnetworksanddeeplearning.com/chap1.html) 를 참고하여 작성한 글임
 
-## how neural networks work
+# INDEX
+- [perceptron](#perceptron)
+- [toward deep learning](#toward-deep-learning)
+
+# how neural networks work
 신경망은 어떻게 작동하는 걸까?  
 
 loss function을 최적화시키며 가중치와 편향을 자동으로 검색하는 알고리즘(경사 하강법)과, 그렇게 형성된 신경망이 인상적인 성능을 보이는 작금의 상황은 단지 신비롭게만 보인다.  
@@ -57,9 +62,3 @@ $$\text{output}=
 그래서 최종적으로, 이 이미지가 사람의 얼굴인지는, 단일 픽셀 수준에서 대답할 수 있는 간단한 질문들로 분해될 수 있다. 이처럼, 신경망의 초기 계층은 입력 이미지에 대한 단순하면서 **구체적인** 질문을 처리하고, 이후 계층은 더 복잡하고 **추상적인** 질문과 개념을 처리한다. 이것을 신경망의 추론 원리라고 볼 수 있으며, 이런 종류의 다층 구조를 심층 신경망<sup>deep neural network</sup>이라 한다.  
 
 + 시벤코 정리에 의하면 은닉층이 하나만 있어도 임의의 연속인 다변수함수를 근사할 수 있다. 따라서 위 설명은 그저 다층 신경망에서, feature의 추출을 이해하는 방식 중 하나라고 생각해야 할 것이다.
-
----
-## **reference**
-* [neural networks and deep learning](http://neuralnetworksanddeeplearning.com/)
-
----
