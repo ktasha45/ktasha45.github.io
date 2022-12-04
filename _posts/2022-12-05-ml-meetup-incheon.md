@@ -102,8 +102,8 @@ categories: seminar
 - data relations in real world
   - data without physical constraints
   - we already know so many examples: networks
-    - citation nwtwork
-    - social nwteork
+    - citation network
+    - social network
     - transportation network
     - molecular structure / reactions
   - network
