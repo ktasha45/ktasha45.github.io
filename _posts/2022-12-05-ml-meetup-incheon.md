@@ -26,6 +26,8 @@ categories: seminar
 ---
 
 - 아마 난생 처음 자의로 참여해본 오프라인 ML 세미나. 9월 17일에 진행됨
+<center><img src="https://user-images.githubusercontent.com/47550287/206867407-f34c4d8a-1da7-4a2f-88cf-8d562063d0f0.png" width="500"/></center>
+
 - 8월 29일 쯤 대학생 인공지능 오픈채팅방에서 머신러닝 세미나를 한다는 소식을 들었다 ([festa.io](https://festa.io/events/2562))
 - 8월 31일에 링크에 있는 오픈채팅방에 들어갔고, 9월 17일 행사에 참여했다
 - 11월 19일에 한 devfest 와 멀지 않은 곳에서 한 행사였다

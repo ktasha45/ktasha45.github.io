@@ -18,7 +18,7 @@ categories: seminar
 - 12월 9일 삼성역 코엑스 근처에 있는 구글 스타트업캠퍼스에서 진행된 행사
   - 수도콘도 여기서 진행됐었다
   - 19시 ~ 21시 30분, 2시간 동안 진행됐다
-  <center><img src="https://user-images.githubusercontent.com/47550287/206759045-b26ea2a1-9cd1-4c3f-89df-b06218f45e72.png" width="500"/></center>
+<center><img src="https://user-images.githubusercontent.com/47550287/206759045-b26ea2a1-9cd1-4c3f-89df-b06218f45e72.png" width="500"/></center>
 
 ## 1. 수 년간 전공책만 팠던 개발자의 리눅스 커널 기여 삽질기
 - CS 관련 책을 많이 읽었고, 집필까지 함
