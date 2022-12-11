@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Machine Learning Meetup - Incheon
-categories: seminar
+categories: meetup
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Devfest 2022 Seoul
-categories: seminar
+categories: meetup
 ---
 # INDEX
 - [1. 수 년간 전공책만 팠던 개발자의 리눅스 커널 기여 삽질기](#1-수-년간-전공책만-팠던-개발자의-리눅스-커널-기여-삽질기)
