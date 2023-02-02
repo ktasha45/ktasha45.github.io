@@ -64,9 +64,5 @@ incremental: false
 
 
 # Analytics
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-HQSV1EYCJ1"
-    anonymize_ip         : # true, false (default)
+google_analytics:
+  tracking_id: G-HQSV1EYCJ1
