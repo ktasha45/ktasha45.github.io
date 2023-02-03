@@ -61,8 +61,3 @@ incremental: false
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-# Analytics
-google_analytics:
-  tracking_id: G-HQSV1EYCJ1
