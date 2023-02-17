@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  DevFest Pangyo 2022
-categories: meetup
+categories: review
 ---
 # INDEX
 - 추가해야 함

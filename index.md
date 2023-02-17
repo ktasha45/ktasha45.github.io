@@ -4,7 +4,9 @@
 layout: index
 title: flogging
 ---
-{% for tag in site.categories %}
+
+{% assign sorted_cats = site.categories | sort %}
+{% for tag in sorted_cats %}
   <h2>{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
