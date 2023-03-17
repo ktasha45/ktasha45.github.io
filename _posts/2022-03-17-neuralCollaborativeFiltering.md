@@ -37,3 +37,7 @@ categories: dl
 - inner product $\rightarrow$ neural network (MLP)
 - GMF 도입
 - GMF 와 MLP 퓨전 $\rightarrow$ NeuMF
+
+---
+
+first draft: 2023.03.17 15:59
