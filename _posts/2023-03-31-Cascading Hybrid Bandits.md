@@ -21,7 +21,7 @@ categories: dl
   - $\eta$-approximation 이라는.. 게 나오는데 뭔지 모르겠음
     - 이렇게 했을 떄 이정도 정확도로 근사한다~ 라는 건가?
 - algorithm 부분에서 행렬 연산을 막 하는데, 어떻게 나온 값인지 모르겠음
-  - $\bold M_t, \bold H_t, \bold B_t$ 같은 변수들이 뭘 의미하는지
+  - $\bf M_t, \bf H_t, \bf B_t$ 같은 변수들이 뭘 의미하는지
   - UCB 는 exploration 방법론 같음
 - 그 아래 analysis 부분에서 막 confidence bound 같은 걸로 증명하는데, 뭔지 모르겠음
 - 모르는 게 너무 많았다. 뒷부분은 그냥 안 읽었음. 하지만 논문에서 제시하는 방향성과 방법론은 아주 신기했다. bandit 이라는 것도 처음 보고, CF 를 쓰지 않고 user 의 행동에 기반해서 추천한다는 게 신기했다
