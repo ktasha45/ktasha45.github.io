@@ -4,7 +4,8 @@ title:  Cascading Hybrid Bandits (Recsys'20)
 categories: dl
 ---
 
-## Cascading Hybrid Bandits
+## Cascading Hybrid Bandits: Online Learning to Rank for Relevance and Diversity (Recsys '20)
+- https://arxiv.org/abs/1912.00508
 - 키워드: online learningto rank, cascading bandits, diversity
 - reward 는 ~(추천 리스트의 아이템들을 하나도 안 클릭할 확률) 를 의미하는 것 같음
   - 하나라도 클릭할 확률
