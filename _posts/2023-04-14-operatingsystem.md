@@ -30,3 +30,7 @@ categories: computer science
     - PPID
   - fork, exec - system call
 - thread
+
+---
+
+first draft: 2023.04.14 19:03
