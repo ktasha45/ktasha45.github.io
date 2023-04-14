@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Operating system
-categories: computer science
+categories: [Computer Science]
+
 ---
 
 # Operating system

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How neural networks work
-categories: dl
+categories: [Deep Learning]
 ---
 - [neural networks and deep learning - chap1](http://neuralnetworksanddeeplearning.com/chap1.html) 를 참고하여 작성한 글임
 

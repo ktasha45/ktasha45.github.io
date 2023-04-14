@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  real analysis 1
-categories: mathematics
+categories: Mathematics
 ---
 
 - Archimedean property of $\mathbb R$

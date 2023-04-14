@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cascading Hybrid Bandits (Recsys'20)
-categories: dl
+categories: [Deep Learning]
 ---
 
 ## Cascading Hybrid Bandits: Online Learning to Rank for Relevance and Diversity (Recsys '20)

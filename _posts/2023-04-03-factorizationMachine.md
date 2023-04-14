@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Factorization Machines (ICDM'10)
-categories: dl
+categories: [Deep Learning]
 ---
 ## Factorization Machines (ICDM'10)
 - [https://ieeexplore.ieee.org/document/5694074](https://ieeexplore.ieee.org/document/5694074)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neural Collaborative Filtering (WWW ‘17)
-categories: dl
+categories: [Deep Learning]
 ---
 
 # Neural Collaborative Filtering (WWW '17)
